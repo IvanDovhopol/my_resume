@@ -70,6 +70,10 @@ body {
 /* My projects section */
 .my-projects-section {
   margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .my-projects-list {
@@ -196,6 +200,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #FFF0F5;
+  text-decoration: none;
 }
 
 .contact-section-type-messanger {
@@ -279,6 +284,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #FFF0F5;
+  text-decoration: none;
 }
 
 .my-new-information-certificat-section {
@@ -359,7 +365,7 @@ body {
 
 
 /* Update resume */
-a:hover {
+a:hover, a:focus {
   color: blue;
   font-size: 17px;
 }
@@ -373,3 +379,5 @@ a:active {
   font-size: 17px;
   font-weight: 700;
 }
+
+
