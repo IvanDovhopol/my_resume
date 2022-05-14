@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>My resume</title>
   </head>
@@ -21,7 +16,7 @@
       <!-- Main content section -->
       <div class="content-section">
         <!-- About me section -->
-        <header class="about-me">
+        <header class="header">
           <h1 class="title"><span class="title-red">Future</span> Junior Full-Stack Developer</h1>
           <h2 class="title-name">Ivan Dovhopol</h2>
           <p class="text">
@@ -76,9 +71,18 @@
         <section class="language-section">
           <h3>Language</h3>
           <ul class="language-list list">
-            <li class="item-language">Russian &#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</li>
-            <li class="item-language">Ukrainian &#9733;&#9733;&#9733;&#9733;&#9733;&#9734;</li>
-            <li class="item-language">English &#9733;&#9734;&#9734;&#9734;&#9734;&#9734;</li>
+            <li class="item-language">
+              Russian
+              <span title="Proficiency(C2)" class="language-level">&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </li>
+            <li class="item-language">
+              Ukrainian
+              <span title="Advanced(C1)" class="language-level">&#9733;&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            </li>
+            <li class="item-language">
+              English
+              <span title="Beginner(Pre-A1)" class="language-level">&#9733;&#9734;&#9734;&#9734;&#9734;&#9734;</span>
+            </li>
           </ul>
         </section>
 
@@ -99,108 +103,67 @@
       <!--Sidebar section-->
       <footer>
         <aside class="sidebar-section">
-          <img class="my-photo" src="img/my_photo.jpg" alt="my photo" />
+          <img class="my-photo" src="img/my_photo.jpg" alt="my photo" width="370" height="354" />
 
           <!-- Contacts section -->
-          <div class="contact-section">
-            <section>
-              <h3 class="sidebar-tatle">Contacts</h3>
-              <span class="contact-section-type">C:</span>
-              <a class="contact-section-link" href="tel:+380973716720">+380 973 716 720</a>
-            </section>
-
+          <section class="contact-section">
             <div>
-              <span class="contact-section-type">E:</span>
-              <a class="contact-section-link" href="ivandovhopol@gmail.com">ivandovhopol@gmail.com</a>
+              <h3 class="title">Contacts</h3>
+              <span class="type">C:</span>
+              <a class="link" href="tel:+380973716720">+380 973 716 720</a>
             </div>
-
             <div>
-              <span class="contact-section-type">T:</span>
-              <a class="contact-section-link" href="tg://https://t.me/dovhopolivan">Telegram</a>
-              <span class="contact-section-type-messanger">I:</span>
-              <a
-                class="contact-section-link"
-                target="-blank"
-                href="https://instagram.com/dovhopolivan02?utm-medium=copy-link"
+              <span class="type">E:</span>
+              <a class="link" href="ivandovhopol@gmail.com">ivandovhopol@gmail.com</a>
+            </div>
+            <div>
+              <span class="type">T:</span>
+              <a class="link" href="tg://https://t.me/dovhopolivan">Telegram</a>
+              <span class="type-messenger">I:</span>
+              <a class="link" target="-blank" href="https://instagram.com/dovhopolivan02?utm-medium=copy-link"
                 >Instagram</a
               >
             </div>
-          </div>
+          </section>
 
-          <!-- Tech skills section -->
-          <section class="tech-skills-section">
-            <h3 class="sidebar-tatle sidebar-color-new">Tech Skills</h3>
-            <ul class="tech-skills-list">
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">MS Excel</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">MS Word</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">Google Docs</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">CRM</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">Slack</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">Atlassian Jira</span>
-              </li>
-              <li class="colors-item">
-                <span class="tech-skills-item-text redact-text-skills">Atlassian Confluence</span>
-              </li>
+          <!-- Tech skills -->
+          <section class="tech-section">
+            <h3 class="title">Tech Skills</h3>
+            <ul class="skills-list">
+              <li class="item">MS Excel</li>
+              <li class="item">MS Word</li>
+              <li class="item">Google Docs</li>
+              <li class="item">CRM</li>
+              <li class="item">Slack</li>
+              <li class="item">Atlassian Jira</li>
+              <li class="item">Atlassian Confluence</li>
             </ul>
           </section>
 
-          <!-- Soft skills section -->
-          <section class="soft-skills-section">
-            <h3 class="sidebar-tatle sidebar-color-new">Soft Skills</h3>
-            <ul class="soft-skills-list">
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Performance</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Upper PC User</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Punctual</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Teamwork</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Creativity</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Purposeful</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Customer orientation</span>
-              </li>
-              <li class="colors-item">
-                <span class="soft-skills-item-text redact-text-skills">Print speed - 300+</span>
-              </li>
+          <!-- Soft skills -->
+          <section class="soft-section">
+            <h3 class="title">Soft Skills</h3>
+            <ul class="skills-list">
+              <li class="item">Performance</li>
+              <li class="item">Upper PC User</li>
+              <li class="item">Punctual</li>
+              <li class="item">Teamwork</li>
+              <li class="item">Creativity</li>
+              <li class="item">Purposeful</li>
+              <li class="item">Customer orientation</li>
+              <li class="item">Print speed - 300+</li>
             </ul>
           </section>
 
           <!-- Certificat -->
-          <section class="my-new-information-certificat-section">
-            <h3 class="sidebar-tatle">
-              <span class="sidebar-color-new">My certificates</span>
-            </h3>
-            <ul class="soft-skills-list">
-              <li class="colors-item">
-                <span class="soft-skills-item-text">
-                  <a class="my-new-information-certificat" href="https://www.thecampster.com/ua/pdf/cert_en-144990"
-                    >English (beginner)</a
-                  >
-                </span>
+          <section class="certificat-section">
+            <h3 class="title">My certificates</h3>
+            <ul class="certificat-list">
+              <li class="item">
+                <a class="link" href="https://www.thecampster.com/ua/pdf/cert_en-144990">English (beginner)</a>
               </li>
             </ul>
-            <img class="my-icons" title="Coming soon!" src="./icons/time-cert.svg" alt="time" />
+            <img class="my-icons" title="Coming soon!" src="./icons/man-time.svg" alt="time" width="30" />
           </section>
         </aside>
       </footer>
