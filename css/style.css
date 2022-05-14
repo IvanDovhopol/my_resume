@@ -1,7 +1,14 @@
 body {
-  font-family: 'Montserrat',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main-contener {
@@ -13,13 +20,12 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Main content section */
-.main-content-section {
+.content-section {
   padding: 100px 90px;
 }
 
-.main-cotent-title {
+.projects-section .title {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -28,13 +34,12 @@ body {
   margin: 0 0 10px 0;
 }
 
-
 /* About me section */
-.about-me-section {
+.about-me {
   margin: 0 0 40px 0;
 }
 
-.about-me-professional {
+.about-me .title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -43,7 +48,7 @@ body {
   margin: 0 0 20px 0;
 }
 
-.about-me-name {
+.title-name {
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -52,7 +57,7 @@ body {
   margin: 0 0 25px 0;
 }
 
-.about-me-description {
+.about-me .text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -62,13 +67,13 @@ body {
   width: 400px;
 }
 
-.color-about-me {
+.about-me .text-mark {
   color: #000;
   font-weight: 700;
 }
 
-/* My projects section */
-.my-projects-section {
+/* My projects */
+.projects-section {
   margin-bottom: 50px;
   font-style: normal;
   font-weight: 400;
@@ -110,15 +115,17 @@ body {
   color: #000;
 }
 
-
 /* My-work-experience */
 
-.my-work-experience-company {
+.education-section .work-title-red {
   color: #800000;
 }
 
+.work-section .subtitle-red {
+  color: #800000;
+}
 
-.my-work-experience-position {
+.work-section .subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -127,24 +134,59 @@ body {
   margin: 0 0 10px 0;
 }
 
-.my-work-experience-time {
+.education-section .subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.education-section .text {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #A8A8A8;
+  color: #a8a8a8;
   margin: 0 0 10px 0;
 }
 
-.my-work-experience-brecket {
+.education-section .text-mark {
   color: #000;
 }
 
-.my-work-experience-duties {
+.projects-section .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.work-section .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.work-section .text-mark {
+  color: #000;
+}
+
+.work-section .work-list {
   padding-left: 18px;
 }
 
-.my-work-experience-duty {
+.language-section .language-list {
+  padding-left: 0px;
+}
+
+.work-list .item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -152,12 +194,11 @@ body {
   color: #595959;
 }
 
-.my-work-experience-company-block {
+.section {
   margin-bottom: 15px;
 }
 
-
-.my-work-experience-company-Management {
+.education-section .subtitle-professional {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -165,7 +206,7 @@ body {
   margin-bottom: 12px;
 }
 
-/* sidebar-section */
+/* sidebar */
 .sidebar-section {
   background-color: #696969;
   width: 370px;
@@ -181,7 +222,7 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  color: #B0E0E6;
+  color: #b0e0e6;
   margin-bottom: 10px;
 }
 
@@ -199,8 +240,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #FFF0F5;
-  text-decoration: none;
+  color: #fff0f5;
 }
 
 .contact-section-type-messanger {
@@ -212,25 +252,22 @@ body {
   margin-right: 9px;
 }
 
-
 /* Tech skills section*/
 .tech-skills-list {
   padding: 0 0 0 17px;
 }
-
 
 .colors-item {
   color: #000;
 }
 
 .tech-skills-item-text {
-  color: #FFF0F5;
+  color: #fff0f5;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
-
 
 /* Soft skills section*/
 .soft-skills-section {
@@ -242,7 +279,7 @@ body {
 }
 
 .soft-skills-item {
-  color: #FB6D3A;
+  color: #fb6d3a;
 }
 
 .soft-skills-item-text {
@@ -250,9 +287,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #FFF0F5;
+  color: #fff0f5;
 }
-
 
 .my-photo {
   width: 370px;
@@ -263,11 +299,10 @@ body {
 
 .tech-skills-color-new {
   color: #008080;
-
 }
 
 .sidebar-color-new {
-  color: #B0E0E6;
+  color: #b0e0e6;
 }
 
 .my-new-information-work {
@@ -283,17 +318,15 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #FFF0F5;
-  text-decoration: none;
+  color: #fff0f5;
 }
 
 .my-new-information-certificat-section {
   margin: 50px 0 0 40px;
 }
 
-.my-new-information-Future {
+.title-red {
   color: #800000;
-
 }
 
 .my-icons {
@@ -304,27 +337,12 @@ body {
   height: 40px;
 }
 
-.main-language {
+.item-language {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   color: #000;
-}
-
-.main-language-level {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  color: #000;
-}
-
-.main-language-level2 {
-  font-style: normal;
-  font-size: 17px;
-  line-height: 24px;
-  color: #808080;
 }
 
 /* Hobby */
@@ -335,7 +353,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #000;
-
 }
 
 /* Icon margin */
@@ -363,9 +380,9 @@ body {
   margin-right: 56px;
 }
 
-
 /* Update resume */
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: blue;
   font-size: 17px;
 }
@@ -379,5 +396,3 @@ a:active {
   font-size: 17px;
   font-weight: 700;
 }
-
-
