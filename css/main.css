@@ -5,45 +5,51 @@
 .content-section {
 }
 
-/* <!-- About me section --> */
-.header {
+/* <!-- about --> */
+.about {
 }
-.title {
+.about-title {
 }
-.title-red {
+.about-title-red {
 }
-.title-name {
+.about-title-name {
 }
-.text {
+.about-text {
 }
-.text-mark {
-}
-
-/* My Projects section */
-.projects-section {
-}
-.title {
+.about-text-mark {
 }
 
-/* My work experience */
-.work-section {
+/* projects */
+.projects {
 }
-.title {
+.projects-title {
 }
-.subtitle {
+.projects-text {
 }
-.subtitle-red {
+
+/* work */
+.work {
 }
-.text {
+.work-title {
 }
-.text-mark {
+.work-place {
+}
+.work-place-red {
+}
+.work-text {
+}
+.work-text-mark {
 }
 .work-list {
 }
-.item {
+.work-item {
 }
 
-/* My hobbies */
+/* hobbies */
+.hobbies {
+}
+.hobbies-title {
+}
 .hobbies-icon0 {
 }
 .hobbies-icon1 {
@@ -56,17 +62,19 @@
 }
 .hobbies-icon5 {
 }
-.My-hobbies {
+.hobbies-text {
 }
 
-/* My language */
-.language-section {
+/* language */
+.language {
+}
+.language-tltle {
 }
 .language-list {
 }
 .list {
 }
-.item-language {
+.language-item {
 }
 .language-level {
 }
