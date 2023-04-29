@@ -212,7 +212,8 @@ a {
   display: flex;
 }
 
-.contact-link.link-linkedin {
+.contact-link.link-linkedin,
+.contact-link.link-web {
   margin-left: 10px;
 }
 
