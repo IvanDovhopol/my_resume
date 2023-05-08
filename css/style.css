@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f5f7fa;
+  background-color: #fff;
 }
 
 .list {
@@ -50,29 +50,29 @@ body {
   margin: 0 0 40px 0;
 }
 
-.header .title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2rem;
-  color: #000;
-  margin: 0 0 40px 0;
-}
-
 .title-name {
   text-align: center;
   font-weight: 700;
   font-size: 45px;
   line-height: 1.2rem;
   color: #000;
-  margin: 0 0 25px 0;
+  margin: 0;
+}
+
+.specialization {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2rem;
+  color: #000;
+  margin: 25px 0 40px 0;
 }
 
 .header .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7rem;
-  color: #595959;
+  color: #000;
   margin: 0 0 40px 0;
   width: 600px;
 }
@@ -130,9 +130,9 @@ body {
 
 .education-section .text {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.25rem;
-  color: #595959;
+  color: #000;
   margin: 0 0 10px 0;
 }
 
@@ -151,14 +151,10 @@ body {
 
 .work-section .text {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.25rem;
-  color: #595959;
+  color: #000;
   margin: 0 0 10px 0;
-}
-
-.responsibilities-list {
-  padding-left: 18px;
 }
 
 .work-list .item {
@@ -283,6 +279,5 @@ body {
 
 .github-link {
   font-weight: 700;
-  /* font-size: 15px; */
   color: #800000;
 }
